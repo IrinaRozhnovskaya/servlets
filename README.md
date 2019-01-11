@@ -32,7 +32,7 @@ build and run using docker-compose-maven-plugin (see pom.xml)
 ```bash
 ./mvnw ; ./mvnw -Pdocker docker-compose:up
 
-open http://localhost:8080/servlets/CookieServlet
+open http://localhost:8080/servlets/
 
 ./mvnw -Pdocker docker-compose:down
 ```
